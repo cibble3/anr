@@ -1,0 +1,23 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+	overflow-y: hidden;
+	color: black;
+	}
+
+#main{ 
+	padding-top: 130px;
+	width: 80%;
+	height: 10000px;
+	margin-left: 	10%;
+	margin-right: 	10%;
+	margin: auto;
+	-webkit-box-shadow: 0 1px 6px rgba(0,0,0,0.27),0 0 40px rgba(0,0,0,0.06) inset;
+	-moz-box-shadow: 0 1px 6px rgba(0,0,0,0.27),0 0 40px rgba(0,0,0,0.06) inset;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.27),0 0 40px rgba(0,0,0,0.06) inset;
+	margin-top: -30px;
+	background-color: white;}
+
+.wrapper{}
