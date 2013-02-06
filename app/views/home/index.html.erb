@@ -1,14 +1,12 @@
 <div id="homepage">
-	<h1 id="text" style="margin-left: 45px;"> Art Of Natures Resources</h1>
+	<h1 id="text" style="margin-left: 45px;"><center>Art Of Natures Resources</center></h1>
 	<div id="pics" class="slideshow" style ="margin-left: 45px; margin-bottom: 95px;"> 
 		<% Furniture.all.each do |f| %>
 			<div id="silde">
-				<div id="pic" style="float: left;">
-					<%= link_to image_tag("#{f.image}") %> 
-				<%= f.description %>	
-				</div>
+				<div id="pic" style="float: right;">
+					<%= link_to image_tag("#{f.image}") %> 	
+				</div>	
 			</div>
-			
 		<% end %>
 	</div>
 </div>
