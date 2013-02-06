@@ -13,20 +13,17 @@
  */
 
 body{
-	background:url('/assets/Driftwood_Texture_by_williamMalone copy.jpg')}
+	background:url('../assets/Driftwood_Texture_by_williamMalone.jpg')}
 
 #header{
-	width: 100%;}	
+	width: 100%;
+	margin-left: -35px;
+	}	
 
-#footer{
-	width: 65.25%;
-	bottom: 0px;
-	height: 25px;
-	text-align: center;
-	border-top: 1px solid black;
-	margin-left: 200px;
-	padding-top: 5px;
-	margin-top: 725px;
+#txt{
+	width: 400px;
+	margin-left: 100px;
+	margin-top: 125px;
 	}
 	
-	
+

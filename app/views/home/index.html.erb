@@ -1,11 +1,16 @@
-<div id="homepage">
-	<div id="pics" class="slideshow" style ="margin-left: 45px; margin-bottom: 95px;"> 
+<div id="homepage" style="height: 100%;">
+	<div id="pics" class="slideshow" style ="float: right; margin-right: 700px; margin-top: -150px;"> 
 		<% Furniture.all.each do |f| %>
 			<div id="silde">
-				<div id="pic" style="float: right;">
-					<%= link_to image_tag("#{f.image}") %> 	
+				<div id="pic">
+					<%= link_to image_tag("#{f.image}" , :height => 500 ) %> 	
 				</div>	
 			</div>
 		<% end %>
+	</div>
+	<div id="txt" style="postion: absolute;">
+		<p>Coming from England and living in California is something special.I love everything about the beach, Just going down there to enjoy the waves crashing against the shoreline,Or reconnect with mother nature, maybe going out on a boat or just simply to swim and enjoy.</p> 
+		<p>The beach has a huge spiritual meaning and feeling inside, my energy once leaving the beach is so uplifted,So for me to get involved with driftwood was a no brainer.
+		<p>Finding a piece of driftwood and Giving it a new life instead of it rotting and decaying by turning it into a beautiful piece of art,thats the satisfaction I get to watch the piece of wood transform into it's new life is something special.</p> 
 	</div>
 </div>
