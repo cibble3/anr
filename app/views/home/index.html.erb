@@ -1,16 +1,56 @@
-<div id="homepage" style="height: 100%;">
-	<div id="pics" class="slideshow" style ="float: right; margin-right: 700px; margin-top: -150px;"> 
-		<% Furniture.all.each do |f| %>
-			<div id="silde">
-				<div id="pic">
-					<%= link_to image_tag("#{f.image}" , :height => 500 ) %> 	
-				</div>	
+<!-- begin #page - the container for everything but header -->
+<div id="page">
+	<div class="hero-unit">
+		<div class="container">
+			<h2>World Wide Web Typography</h2>
+		</div>
+		<!--close container--> 
+	</div>
+	<!--close hero-unit-->
+	
+	<div class="container clearfix" id="main-content"><!--begin main content-->
+		<div class="row-fluid portfolio-detail"><!--begin row-fluid-->
+			
+			<div class="span7 offset1 image-slider" role="image-slider"> 
+				
+				<!-- Begin Carousel -->
+				<div id="carousel" class="flexslider">
+					<ul class="slides">
+						<!--notice that these are background images because youtube and vimeo images fetched dynamically are not the same size-->
+						<li style="background-image: url(../demo/portfolio/1.jpg);"><img src="assets/images/trans.gif" alt=""></li>
+						<li style="background-image: url(../demo/portfolio/2.jpg);"><img src="assets/images/trans.gif" alt=""></li>
+						<li style="background-image: url(../demo/portfolio/3.jpg);"><img src="assets/images/trans.gif" alt=""></li>
+						<li style="background-image: url(../demo/portfolio/4.jpg);"><img src="assets/images/trans.gif" alt=""></li>
+						<li style="background-image: url(../demo/portfolio/5.jpg);"><img src="assets/images/trans.gif" alt=""></li>
+						<li style="background-image: url(../demo/portfolio/6.jpg);"><img src="assets/images/trans.gif" alt=""></li>
+						<li style="background-image: url(../demo/portfolio/7.jpg);"><img src="assets/images/trans.gif" alt=""></li>
+					</ul>
+				</div>
+				<!-- End Carousel --> 
+				
+				<!-- Begin Slider -->
+				<div id="slider" class="flexslider">
+					<ul class="slides">
+						<li> <a class="zoom-image fancyme" data-fancybox-group="portfolio" href="../demo/portfolio/1-lrg.jpg">View Larger Image</a> <img src="../demo/portfolio/1.jpg" alt=""></li>
+						<li> <a class="zoom-image fancyme" data-fancybox-group="portfolio" href="../demo/portfolio/2-lrg.jpg">View Larger Image</a> <img src="../demo/portfolio/2.jpg" alt=""></li>
+						<li> <a class="zoom-image fancyme" data-fancybox-group="portfolio" href="../demo/portfolio/3-lrg.jpg">View Larger Image</a> <img src="../demo/portfolio/3.jpg" alt=""></li>
+						<li> <a class="zoom-image fancyme" data-fancybox-group="portfolio" href="../demo/portfolio/4-lrg.jpg">View Larger Image</a> <img src="../demo/portfolio/4.jpg" alt=""></li>
+						<li> <a class="zoom-image fancyme" data-fancybox-group="portfolio" href="../demo/portfolio/5-lrg.jpg">View Larger Image</a> <img src="../demo/portfolio/5.jpg" alt=""></li>
+						<li> <a class="zoom-image fancyme" data-fancybox-group="portfolio" href="../demo/portfolio/6-lrg.jpg">View Larger Image</a> <img src="../demo/portfolio/6.jpg" alt=""></li>
+						<li> <a class="zoom-image fancyme" data-fancybox-group="portfolio" href="../demo/portfolio/7-lrg.jpg">View Larger Image</a> <img src="../demo/portfolio/7.jpg" alt=""></li>
+					</ul>
+				</div>
+				<!-- End Slider --> 
+				
 			</div>
-		<% end %>
-	</div>
-	<div id="txt" style="postion: absolute;">
-		<p>Coming from England and living in California is something special.I love everything about the beach, Just going down there to enjoy the waves crashing against the shoreline,Or reconnect with mother nature, maybe going out on a boat or just simply to swim and enjoy.</p> 
-		<p>The beach has a huge spiritual meaning and feeling inside, my energy once leaving the beach is so uplifted,So for me to get involved with driftwood was a no brainer.
-		<p>Finding a piece of driftwood and Giving it a new life instead of it rotting and decaying by turning it into a beautiful piece of art,thats the satisfaction I get to watch the piece of wood transform into it's new life is something special.</p> 
-	</div>
+			<!-- close span7 primary-column-->
+			
+			<section class="span4 project-description" role="project-description">
+				<p>Vestibulum a pulvinar massa. Donec bibendum lectus eget enim pellentesque elementum. Aenean leo diam, adipiscing vel semper aliquam, adipiscing in nisl. Vestibulum eget orci et diam lobortis tincidunt. Cras auctor nunc quis erat venenatis venenatis auctor nulla fringilla. Proin facilisis ante quis erat sodales fringilla.</p>
+
+<div id="txt">
+	<p>Coming from England and living in California is something special.I love everything about the beach, Just going down there to enjoy the waves crashing against the shoreline,Or reconnect with mother nature, maybe going out on a boat or just simply to swim and enjoy.</p> 
+	<p>The beach has a huge spiritual meaning and feeling inside, my energy once leaving the beach is so uplifted,So for me to get involved with driftwood was a no brainer.
+	<p>Finding a piece of driftwood and Giving it a new life instead of it rotting and decaying by turning it into a beautiful piece of art,thats the satisfaction I get to watch the piece of wood transform into it's new life is something special.</p> 
+</div>
 </div>
